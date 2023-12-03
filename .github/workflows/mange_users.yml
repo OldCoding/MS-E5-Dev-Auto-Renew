@@ -7,8 +7,8 @@ on:
   push:
     tags:
       - 'v*'
-  schedule:
-    - cron: "18 8,16 * * *"
+  #schedule:
+    #- cron: "18 8,16 * * *"
   workflow_dispatch:
   watch:
     types: [started]
